@@ -1,0 +1,16 @@
+# Exclude the project virtual environment from image builds
+.venv
+
+# tests
+tests
+
+# vscode
+.vscode
+
+# dev caches
+.ruff_cache
+.pytest_cache
+
+# Database
+*.db
+!database.db
